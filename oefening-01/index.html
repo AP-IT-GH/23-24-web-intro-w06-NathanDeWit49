@@ -108,19 +108,53 @@
               <label for="adresinput">adres</label><span class="koffiebruin"> *</span><br>
               <input class="form-control" type="text" required><br>
             </article>
-            <article class="col-xl-3">
-              <label for="bpaswdinput">bevestiging paswoord</label><span class="koffiebruin"> *</span><br>
+            <article class="col-md-3 col-6">
+              <label for="postinput">postcode</label><span class="koffiebruin"> *</span><br>
               <input class="form-control" type="password" required><br>
             </article>
-            <article class="col-xl-5">
-              <label for="bpaswdinput">bevestiging paswoord</label><span class="koffiebruin"> *</span><br>
+            <article class="col-md-5 col-6">
+              <label for= "stadinput">stad</label><span class="koffiebruin"> *</span><br>
               <input class="form-control" type="password" required><br>
             </article>
-            <article class="col-xl-4">
-              <label for="bpaswdinput">bevestiging paswoord</label><span class="koffiebruin"> *</span><br>
-              <input class="form-control" type="password" required><br>
+            <article class="col-md-4">
+              <label for="landinput">kies een land</label><span class="koffiebruin"> *</span><br>
+              <select class="form-select"><br>
+                <option value="België" selected>België</option>
+                <option value="Duitsland">Duitsland</option>
+                <option value="Frankrijk">Frankrijk</option>
+                <option value="Luxemburg">Luxemburg</option>
+                <option value="Nederland">Nederland</option>
+                <option value="Verenigd Koninkrijk">Verenigd Koninkrijk</option><br>
+              </select>
             </article>
           </fieldset>
+          <fieldset>
+            <legend class="text-uppercase fw-bolder">koffie-achtergrond</legend>
+            <article class="col-6">
+              <label for="koopinput">ik koop</label><br>
+              <select class="form-select"><br>
+                <option value="koffiebonen">koffiebonen</option>
+                <option value="gemalen koffie">gemalen koffie</option>
+                <option value="oploskoffie">oploskoffie</option>
+              </select><br>
+            </article>
+            <article class="col-6">
+              <label for="faninput">en ben fan van</label><br>
+              <select class="form-select"><br>
+                <option value="Illy" selected>Illy</option>
+                <option value="Lavazza">Lavazza</option>
+                <option value="Starbucks">Starbucks</option>
+                <option value="Gran Maestro">Gran Maestro</option>
+                <option value="Italiano">Italiano</option>
+                <option value="Celeste d'Oro">Celeste d'Oro</option><br>
+              </select>
+            </article>
+            <article class="col">
+              <label for="rangeinput">hoe tevreden ben je van ons?</label><br>
+              <input type="range" class="form-range" min="0" max="10" step="1">
+            </article>
+          </fieldset>
+          <input type="submit" class="btn btn-primary" value="Verzenden">
         </form>
       </section>
       <hr>
